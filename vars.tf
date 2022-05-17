@@ -7,15 +7,16 @@ variable "PATH_TO_PRIVATE_KEY" {
 }
 
 variable "PATH_TO_PUBLIC_KEY" {
-  default = "vinodhkey.pem"
+  default = "bhadri.pem"
 }
 
 variable "AMIS" {
   type = map(string)
   default = {
-    ap-south-1 = "ami-0756a1c858554433e"
-    us-west-2 = "ami-0756a1c858554433e"
-    eu-west-1 = "ami-0756a1c858554433e"
-  }
+    ap-south-1 = "ami-05ba3a39a75be1ec4"
+    us-west-2 = "ami-05ba3a39a75be1ec4"
+    eu-west-1 = "ami-05ba3a39a75be1ec4"
+    }
 }
+
 
